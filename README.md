@@ -1,62 +1,56 @@
-<img src="https://github.com/ArrowOS/getting_started/blob/master/misc/logo.png?raw=true">
+<img src="https://fiime.cn/storage/attachments/2022/01/27/jb96dhlnRBjKaOBFQaz2I1KNwsHhfnEP8n626vp3_thumb.png">
 
-# ArrowOS
+# FiimeOS
 
- Getting Started
+开始编译
 ---------------
-To get started with the ArrowOS sources, you'll need to get
+开始通过下方git获取FiimeROM的源代码
+To get started with the FiimeOS sources, you'll need to get
 familiar with [Git and Repo](https://source.android.com/setup/build/downloading).
 
+要初始化本地存储库，请使用命令：
 To initialize your local repository, use command:
 
 ```bash
-repo init -u https://github.com/ArrowOS/android_manifest.git -b arrow-12.0
+repo init -u https://github.com/FiimeROM/manifest.git -b fiimeos-12.0
 ```
 
+同步命令：
 Then sync up:
 
 ```bash
 repo sync
 ```
 
-Building the System
+编译步骤
 -------------------
+使用 envsetup.sh 脚本初始化 ROM 环境。
  Initialize the ROM environment with the envsetup.sh script.
 
 ```bash
 . build/envsetup.sh
 ```
 
+克隆相关设备dt等
 Lunch your device after cloning all device sources if needed.
 
 ```bash
 lunch arrow_devicecodename-buildtype
 ```
 
+开始编译
 Start compilation
 
 ```bash
 m otapackage
 ```
 
+或者使用下面的命令
 OR
 
 ```bash
 m bacon
 ```	 
 
-**You can also refer to our detailed guides as listed below:**
 
-[How to compile ArrowOS from source](https://blog.arrowos.net/posts/compilation-guide)
-
-[How to submit patches to ArrowOS Gerrit](https://blog.arrowos.net/how-to-submit-patches-to-arrowos-gerrit)
-
-[Apply for Maintainership](https://blog.arrowos.net/posts/apply-for-maintainership) OR [Submit device for community builds](https://blog.arrowos.net/introducing-community-builds)
-
-To check thread template refer [**HERE**](https://raw.githubusercontent.com/ArrowOS/documentation/master/thread_template.txt)
-
----------------------------------------------------------------------------------------------------------------------
-
-[ArrowOS Website](https://www.arrowos.net/) | [ArrowOS Blog](https://blog.arrowos.net/)
-
----------------------------------------------------------------------------------------------------------------------
+好运！
