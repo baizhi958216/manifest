@@ -1,4 +1,3 @@
-<img src="https://fiime.cn/storage/attachments/2022/01/27/jb96dhlnRBjKaOBFQaz2I1KNwsHhfnEP8n626vp3_thumb.png">
 
 # FiimeOS
 
