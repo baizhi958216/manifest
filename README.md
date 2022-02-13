@@ -10,7 +10,7 @@ To get started with the FiimeOS sources, you'll need to get familiar with [Git a
 To initialize your local repository, use command:
 
 ```bash
-repo init -u https://github.com/FiimeROM/manifest.git -b fiimeos-12.0
+repo init -u https://github.com/FiimeROM/manifest.git -b fiimeos-12.0-v1
 ```
 
 同步命令：  
